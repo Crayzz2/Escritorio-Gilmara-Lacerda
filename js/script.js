@@ -15,7 +15,7 @@ $(document).ready(function() {
 
       // Enviar dados via AJAX
       $.ajax({
-        url: "https://formsubmit.co/ajax/8ce6b7893f868fae5b1f1c4f71ea9a8d",
+        url: "https://formsubmit.co/ajax/glacerda74@outlook.com",
         method: "POST",
         data: formData,
         dataType: "json",
