@@ -1,0 +1,130 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #EEEEEE;
+}
+#img-logo{
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    width: 50px;
+}
+#img-container{
+    width: 100vw;
+    height: 700px;
+    background-image: url('../img/contab.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#info-container{
+    width: 400px;
+    height: 400px;
+    border-radius: 10px;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: large;
+}
+#services-container{
+    margin-top: 100px;
+}
+#carouselServices{
+    margin-top: 100px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #393E4610;
+    width: 700px;
+    height: 500px;
+}
+.carousel-inner{
+    height: 100%;
+    align-content: center;
+}
+.carousel-item{
+    width: 500px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#whatsapp-icon{
+    color: #27d367;
+}
+#formContainer{
+    max-width: 700px;
+    margin-top: 100px;
+}
+#inputName,
+#inputEmail,
+#inputMessage,
+#sendBtn{
+    margin-top: 10px;
+}
+#sendConfirm{
+    color: #0F5132;
+    background-color: #D1E7DD;
+    border-color: #BADBCC;
+}
+#sendError{
+    color: #842029;
+    background-color: #F8D7DA;
+    border-color: #F5C2C7;
+}
+#sendConfirm,
+#sendError{
+    display: none;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 20px 0;
+}
+#map-container{
+    margin-top: 100px;
+}
+
+footer{
+    margin-top: 100px;
+    width: 100vw;
+    height: 100px;
+    background-color: #070707;
+}
+footer p{
+    margin: 10px 0;
+    color: #FFF;
+}
+footer a{
+    text-decoration: none;
+}
+::-webkit-scrollbar {
+    display: none;
+}
+
+@media (max-width: 450px) {
+    #img-container{
+        width: 700px;
+    }
+    #info-container{
+        left: 160px;
+        background-color: #FFFFFF99;
+        padding: 15px;
+    }
+    #services-container{
+        position: relative;
+        left: 150px;
+    }
+    #formContainer{
+        position: relative;
+        left: 150px;
+    }
+    #map-container{
+        position: relative;
+        left: 150px;
+    }
+    #map{
+        width: 400px;
+    }
+    footer{
+        width: 720px;
+    }
+}
